@@ -13,7 +13,7 @@ int main() {
     else {
         cout << "Your seats have been reserved.\n Enjoy your journey!" << endl;
         cout << "Reserved Seats = " << r << endl;
-        cout << "Remaining Seats = " << seats - r << endl; // Corrected expression from original document logic 'seats--r'
+        cout << "Remaining Seats = " << seats - r << endl;
     }
     
     return 0;
