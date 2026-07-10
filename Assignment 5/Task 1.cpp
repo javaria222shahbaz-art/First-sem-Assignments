@@ -26,7 +26,6 @@ int main() {
             sum += sal;
         }
         cout << "\n Total salary paid for Department " << d << " = " << sum << endl;
-    }
-    
+    }  
     return 0;
 }
