@@ -17,7 +17,7 @@ void recordTransaction(double& totalIncome, double& totalExpense) {
         cout << "Total Income so far: $" << totalIncome << endl;
     }
     else if (amount < 0) {
-        totalExpense += amount; // Kept negative value storage logic as written
+        totalExpense += amount;
         cout << "\nAmount recorded as Expense in " << category << " category.\n";
         cout << "Total Expense so far: $" << -totalExpense << endl;
     }
@@ -35,7 +35,7 @@ void viewIncome(double totalIncome) {
 }
 
 void viewBudget(double totalIncome, double totalExpense) {
-    double budget = totalIncome + totalExpense; // expense is stored as negative
+    double budget = totalIncome + totalExpense;
     cout << "\n-----------------------------------";
     cout << "\nTotal Income: $" << totalIncome;
     cout << "\nTotal Expenses: $" << -totalExpense;
