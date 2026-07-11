@@ -15,7 +15,7 @@ int main() {
     cout << " Do you have a valid driving license? (yes/no): ";
     cin >> license;
     
-    if (vehicle == "car") { // Fixed assignment operators to conditional equivalents
+    if (vehicle == "car") {
         if (age >= 18 && license == "yes") {
             cout << " You are eligible to drive a car." << endl;
         } else {
