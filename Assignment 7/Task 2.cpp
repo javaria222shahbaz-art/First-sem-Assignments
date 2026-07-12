@@ -1,5 +1,5 @@
 #include <iostream>
-#include <algorithm> // For std::min and std::max
+#include <algorithm>
 using namespace std;
 
 // Function to find smallest and largest for two numbers
@@ -27,8 +27,7 @@ int main() {
     int num1, num2, num3, num4;
     cout << "Enter Four Positive Numbers: ";
     cin >> num1 >> num2 >> num3 >> num4;
-    
-    // Input validation
+   
     if (num1 <= 0 || num2 <= 0 || num3 <= 0 || num4 <= 0) {
         cout << "All numbers must be positive." << endl;
         return 1;
