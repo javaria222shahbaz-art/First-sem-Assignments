@@ -2,11 +2,10 @@
 using namespace std;
 
 int main() {
-    int time[3]; // hours, minutes, seconds
+    int time[3];
     char direction;
     int rotateBy;
     
-    // Input current time elements
     cout << "Enter Hours: ";
     cin >> time[0];
     cout << "Enter Minutes: ";
