@@ -17,6 +17,5 @@ int main() {
             cout << "Zero found! Enter again.\n";
         }
     }
-    
     return 0;
 }
