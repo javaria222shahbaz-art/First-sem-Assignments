@@ -95,6 +95,5 @@ int main() {
             currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
         }
     }
-    
     return 0;
 }
